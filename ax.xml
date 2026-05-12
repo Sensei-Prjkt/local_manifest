@@ -3,7 +3,7 @@
     <!-- POCO X7 Pro / Redmi Turbo 4 (rodin) Device Manifests -->
     <remote name="Sensei-Prjkt"
             fetch="https://github.com/Sensei-Prjkt/"
-            revision="ax"  />
+            revision="hertzify"  />
 
     <remote name="SenseiiX-gitea"
             fetch="https://gitea.com/SenseiiX/"
@@ -13,7 +13,7 @@
             fetch="https://github.com/xiaomi-mt6899-dev/" />
 
     <!-- Device core repos -->
-    <project name="android_device_xiaomi_rodin" path="device/xiaomi/rodin" remote="Sensei-Prjkt" revision="ax" />
+    <project name="android_device_xiaomi_rodin" path="device/xiaomi/rodin" remote="Sensei-Prjkt" revision="hertzify" />
     <project name="android_device_xiaomi_rodin-kernel" path="device/xiaomi/rodin-kernel" remote="xiaomi-mt6899-dev" revision="lineage-23.2"/>
     <project name="proprietary_vendor_xiaomi_rodin" path="vendor/xiaomi/rodin" remote="SenseiiX-gitea" revision="lineage-23.2"/>
 
