@@ -13,12 +13,11 @@
             fetch="https://github.com/xiaomi-mt6899-dev/" />
 
     <!-- Device core repos -->
-    <project name="android_device_xiaomi_rodin" path="device/xiaomi/rodin" remote="Sensei-Prjkt" />
-    <project name="android_device_xiaomi_rodin-kernel" path="device/xiaomi/rodin-kernel" remote="xiaomi-mt6899-dev" />
-    <project name="proprietary_vendor_xiaomi_rodin" path="vendor/xiaomi/rodin" remote="SenseiiX-gitea" />
+    <project name="android_device_xiaomi_rodin" path="device/xiaomi/rodin" remote="Sensei-Prjkt" revision="ax" />
+    <project name="android_device_xiaomi_rodin-kernel" path="device/xiaomi/rodin-kernel" remote="xiaomi-mt6899-dev" revision="lineage-23.2"/>
+    <project name="proprietary_vendor_xiaomi_rodin" path="vendor/xiaomi/rodin" remote="SenseiiX-gitea" revision="lineage-23.2"/>
 
     <!-- Misc Dependencies -->
-    <project name="hardware_dolby" path="hardware/dolby" remote="Sensei-Prjkt" revision="ax"/>
     <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="xiaomi-mt6899-dev" revision="lineage-23.0" />
     <project name="android_hardware_mediatek" path="hardware/mediatek" remote="xiaomi-mt6899-dev" revision="lineage-23.2" />
     <project name="android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="xiaomi-mt6899-dev" revision="lineage-23.2" />
