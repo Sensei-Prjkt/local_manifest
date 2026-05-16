@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- POCO X7 Pro / Redmi Turbo 4 (rodin) Device Manifests -->
-    <remote name="Sensei-Prjkt"
-            fetch="https://github.com/Sensei-Prjkt/"
-            revision="ax"  />
 
-    <remote name="SenseiiX-gitea"
-            fetch="https://gitea.com/SenseiiX/"
-            revision="lineage-23.2"  />
+<!-- Gitlab -->
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+          <!-- Kernel -->
+  <remote name="kernel"
+          fetch="https://git.kernel.org/" />
+  <remote name="Sensei-Prjkt"
+          fetch="https://github.com/Sensei-Prjkt/" />
 
-    <remote name="xiaomi-mt6899-dev"
-            fetch="https://github.com/xiaomi-mt6899-dev/" />
-
-    <!-- Device core repos -->
-    <project name="android_device_xiaomi_rodin" path="device/xiaomi/rodin" remote="Sensei-Prjkt" revision="ax" />
-    <project name="android_device_xiaomi_rodin-kernel" path="device/xiaomi/rodin-kernel" remote="xiaomi-mt6899-dev" revision="lineage-23.2"/>
-    <project name="proprietary_vendor_xiaomi_rodin" path="vendor/xiaomi/rodin" remote="SenseiiX-gitea" revision="lineage-23.2"/>
-
-    <!-- Misc Dependencies -->
-    <project name="android_packages_apps_DolbyAtmos" path="packages/apps/DolbyAtmos" remote="Sensei-Prjkt" revision="lineage-23.2" />
-    <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="xiaomi-mt6899-dev" revision="lineage-23.2" />
-    <project name="android_hardware_mediatek" path="hardware/mediatek" remote="xiaomi-mt6899-dev" revision="lineage-23.2" />
-    <project name="android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="xiaomi-mt6899-dev" revision="lineage-23.2" />
-    <project name="android_vendor_mediatek_ims" path="vendor/mediatek/ims" remote="xiaomi-mt6899-dev" revision="lineage-23.2" />
-    <project name="priv-keys" path="vendor/lineage-priv/keys" remote="Sensei-Prjkt" revision="16"/>
-    <remove-project path="packages/apps/Updater" />
-    <remove-project path="vendor/official_devices" />
-    <project name="android_packages_apps_Updater" path="packages/apps/Updater" remote="Sensei-Prjkt" revision="lineage-23.2" />
-    <project name="Axion_OTA" path="vendor/official_devices" remote="Sensei-Prjkt" revision="main" />
+  <project name="Sensei-Prjkt/android_device_xiaomi_rodin" path="device/xiaomi/rodin" remote="github" revision="omk"/>
+  <project name="Digimend-X-Rodin/android_device_xiaomi_rodin-kernel" path="device/xiaomi/rodin-kernel" remote="github" revision="lineage-23.2"/>
+  <project name="Digimend-X-Rodin/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="lineage-23.2"/>
+  <project name="Digimend-X-Rodin/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-23.2"/>
+  <project name="Digimend-X-Rodin/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-23.2"/>
+  <project name="swiitch-OFF-Lab/packages_apps_DolbyUI" path="packages/apps/DolbyUI" remote="github" revision="16.0"/>
+  <project name="swiitch-OFF-Lab/hardware_dolby" path="hardware/dolby" remote="github" revision="moto-1.4"/>
+  <project name="ram-unlok/vendor_xiaomi_rodin" path="vendor/xiaomi/rodin" remote="gitlab" revision="TheCloverProject"/>
+  <project name="priv-keys" path="vendor/lineage-priv/keys" remote="Sensei-Prjkt" revision="16"/>
+  <remove-project path="packages/apps/Updater" />
+  <remove-project path="vendor/official_devices" />
+  <project name="android_packages_apps_Updater" path="packages/apps/Updater" remote="Sensei-Prjkt" revision="lineage-23.2" />
+  <project name="Axion_OTA" path="vendor/official_devices" remote="Sensei-Prjkt" revision="main" />
 </manifest>
