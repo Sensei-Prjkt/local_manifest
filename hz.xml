@@ -21,5 +21,5 @@
   <project name="swiitch-OFF-Lab/packages_apps_DolbyUI" path="packages/apps/DolbyUI" remote="github" revision="16.0"/>
   <project name="swiitch-OFF-Lab/hardware_dolby" path="hardware/dolby" remote="github" revision="moto-1.4"/>
   <project name="ram-unlok/vendor_xiaomi_rodin" path="vendor/xiaomi/rodin" remote="gitlab" revision="TheCloverProject"/>
-  <project name="priv-keys" path="vendor/lineage-priv/keys" remote="Sensei-Prjkt" revision="16"/>
+  <project name="priv-keys" path="vendor/private-keys/keys" remote="Sensei-Prjkt" revision="hz"/>
 </manifest>
