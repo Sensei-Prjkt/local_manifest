@@ -4,7 +4,10 @@
 <!-- Gitlab -->
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
-          <!-- Kernel -->
+<!-- Github -->
+  <remote name="github"
+          fetch="https://github.com/" />
+<!-- Kernel -->
   <remote name="kernel"
           fetch="https://git.kernel.org/" />
   <remote name="Sensei-Prjkt"
