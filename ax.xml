@@ -15,7 +15,7 @@
   <!-- Device core repos -->
   <project name="android_device_xiaomi_rodin" path="device/xiaomi/rodin" remote="Sensei-Prjkt" revision="ax"/>
   <project name="android_device_xiaomi_rodin-kernel" path="device/xiaomi/rodin-kernel" remote="Sensei-Prjkt" revision="lineage-23.2"/>
-  <project name="vendor_xiaomi_rodin" path="vendor/xiaomi/rodin" remote="gitlab-sensei" revision="TheCloverProject"/>
+  <project name="vendor_xiaomi_rodin" path="vendor/xiaomi/rodin" remote="gitlab-sensei" revision="lineage-23.2"/>
 
   <!-- Misc Dependencies -->
   <project name="android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="Sensei-Prjkt" revision="lineage-23.2"/>
