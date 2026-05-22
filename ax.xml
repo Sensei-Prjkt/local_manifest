@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- Gitlab -->
+          <!-- Gitlab -->
   <remote name="gitlab"
           fetch="https://gitlab.com/SenseiiX" />
           <!-- Kernel -->
@@ -9,7 +9,6 @@
           fetch="https://git.kernel.org/" />
   <remote name="Sensei-Prjkt"
           fetch="https://github.com/Sensei-Prjkt/" />
-    <remote name="gitlab"
 
   <project name="Sensei-Prjkt/android_device_xiaomi_rodin" path="device/xiaomi/rodin" remote="github" revision="ax"/>
   <project name="Sensei-Prjkt/android_device_xiaomi_rodin-kernel" path="device/xiaomi/rodin-kernel" remote="github" revision="lineage-23.2"/>
