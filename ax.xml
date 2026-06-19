@@ -7,23 +7,28 @@
 
   <remote name="Sensei-Prjkt"
           fetch="https://github.com/Sensei-Prjkt/" />
-
+    
+  <remote name="vendor"
+          fetch="https://git.hlcyn.org/halcyonlv/" />
+    
   <remote name="extras"
-          fetch="https://github.com/swiitch-OFF-Lab/" />
+     fetch="https://github.com/swiitch-OFF-Lab/" />
 
 
   <!-- Device core repos -->
-  <project name="android_device_xiaomi_rodin" path="device/xiaomi/rodin" remote="Sensei-Prjkt" revision="ax"/>
-  <project name="android_device_xiaomi_rodin-kernel" path="device/xiaomi/rodin-kernel" remote="Sensei-Prjkt" revision="lineage-23.2"/>
-  <project name="vendor_xiaomi_rodin" path="vendor/xiaomi/rodin" remote="gitlab-sensei" revision="lineage-23.2"/>
+  <project name="android_device_xiaomi_rodin" path="device/xiaomi/rodin" remote="Sensei-Prjkt" revision="ax2"/>
+  <project name="android_device_xiaomi_rodin-kernel" path="device/xiaomi/rodin-kernel" remote="Sensei-Prjkt" revision="test"/>
+  <project name="vendor_xiaomi_rodin" path="vendor/xiaomi/rodin" remote="vendor" revision="16.2"/>
 
   <!-- Misc Dependencies -->
-  <project name="android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="Sensei-Prjkt" revision="lineage-23.2"/>
-  <project name="android_hardware_mediatek" path="hardware/mediatek" remote="Sensei-Prjkt" revision="lineage-23.2"/>
-  <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="Sensei-Prjkt" revision="lineage-23.2"/>
+  <project name="android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="Sensei-Prjkt" revision="test"/>
+  <project name="android_hardware_mediatek" path="hardware/mediatek" remote="Sensei-Prjkt" revision="test"/>
+  <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="Sensei-Prjkt" revision="test"/>
+  <project name="android_device_xiaomi_rodin-miuicamera" path="device/xiaomi/rodin-miuicamera" remote="Sensei-Prjkt" revision="16.2"/>
+  <project name="android_vendor_mediatek_ims" path="vendor/mediatek/ims" remote="Sensei-Prjkt" revision="lineage-23.2" />
+  <project name="vendor_xiaomi_rodin-miuicamera" path="vendor/xiaomi/rodin-miuicamera" remote="vendor" revision="16.2" />
   <project name="priv-keys" path="vendor/lineage-priv/keys" remote="Sensei-Prjkt" revision="16"/>
 
   <!-- Extras -->
-  <project name="packages_apps_DolbyUI" path="packages/apps/DolbyUI" remote="extras" revision="16.0"/>
   <project name="hardware_dolby" path="hardware/dolby" remote="extras" revision="sony-1.5"/>
 </manifest>
