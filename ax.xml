@@ -30,5 +30,5 @@
   <project name="priv-keys" path="vendor/lineage-priv/keys" remote="Sensei-Prjkt" revision="16"/>
 
   <!-- Extras -->
-  <project name="hardware_dolby" path="hardware/dolby" remote="extras" revision="sony-1.5"/>
+  <project name="packages_apps_DolbyUI" path="packages/apps/DolbyUI" remote="extras" revision="16.0"/>
 </manifest>
