@@ -25,7 +25,6 @@
   <project name="android_hardware_mediatek" path="hardware/mediatek" remote="Sensei-Prjkt" revision="test"/>
   <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="Sensei-Prjkt" revision="test"/>
   <project name="android_device_xiaomi_rodin-miuicamera" path="device/xiaomi/rodin-miuicamera" remote="Sensei-Prjkt" revision="16.2"/>
-  <project name="android_vendor_mediatek_ims" path="vendor/mediatek/ims" remote="Sensei-Prjkt" revision="lineage-23.2" />
   <project name="vendor_xiaomi_rodin-miuicamera" path="vendor/xiaomi/rodin-miuicamera" remote="vendor" revision="16.2" />
   <project name="priv-keys" path="vendor/lineage-priv/keys" remote="Sensei-Prjkt" revision="16"/>
 
